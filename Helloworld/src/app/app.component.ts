@@ -12,6 +12,6 @@ export class AppComponent {
   imgUrl = "./assets/BL_logo_square_png.png";
 
 ngOnInit() : void {
-  this.title = " Hello  From Bridgelabz ";
+  this.title = " Hello From Bridgelabz ! ";
 }
 }
