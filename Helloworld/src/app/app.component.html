@@ -1,3 +1,7 @@
+
+<main>
+
+
 <div>
   <h1> Hello {{this.userName}} from bridgelabz</h1>
   <img [src]="imgUrl" (click)="onClick($event)"
@@ -6,5 +10,7 @@
 </div>
 <div>
   <!-- <input [(ngModel)] = "userName" /> <br>> -->
-   <input [(ngModel)]="userName" /> <br>
+   <input (input)="onInput($event)" [(ngModel)] = "userName"/>
+   <span class = error-output>{{this.nameError}}</span>
 </div>
+</main>

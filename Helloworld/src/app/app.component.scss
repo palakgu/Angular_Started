@@ -4,3 +4,23 @@ img {
   margin: 0 auto ;
   width: 25%;
 }
+.error-output{
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+
+main {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
